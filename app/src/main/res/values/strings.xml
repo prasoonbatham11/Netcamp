@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Netcamp</string>
+
+    <string name="buttonweight">18.4</string>
+    <string name="buttonspacing">2</string>
+
+    <string name="wv">10</string>
+    <string name="wvm">30</string>
+
+</resources>

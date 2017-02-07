@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.prasoon.calculator.Quiz"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:text="TEST YOUR KNOWLEDGE"
+        android:textSize="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fda901" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:text="The quiz is of 50 marks.\nThere will be 5 questions of 10 marks each.\nA correct answer fetches you 10 marks while an incorrect one -5 marks."
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#05cb6c" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:src="@drawable/backor"
+            android:background="#ffffff"
+            android:id="@+id/back" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:src="@drawable/go"
+            android:background="#ffffff"
+            android:id="@+id/go" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
